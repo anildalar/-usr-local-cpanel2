@@ -23,3 +23,8 @@
 
 [2024-10-22 04:58:46 +0200] Done Checking Bandwidth
 ==> Retention days: 10
+[2024-10-22 05:07:06 +0200] Checking Bandwidth
+[2024-10-22 05:07:06 +0200] I/O: best-effort: prio 6
+[2024-10-22 05:07:06 +0200] Processing bandwidth.
+[2024-10-22 05:07:06 +0200] Done Checking Bandwidth
+==> Retention days: 10

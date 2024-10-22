@@ -1177,3 +1177,45 @@ Roundcube updated to 1.6.9.0-1.cp120~u22
 [2024-10-22 05:04:32 +0200] info [install_plugin] Done
 [2024-10-22 05:04:32 +0200] info [install_plugin] Scheduling task to update sprites
 [2024-10-22 05:04:32 +0200] info [install_plugin] Scheduling task to update API spec files
+Waiting for 16 tasks to complete: scheduled (restartsrv spamd, build_locale_databases, install_cpaddons, reloadtailwatch, rebuild_templates, checkallsslcerts, update_userdomains, run_base_package_update, install_imunifyav, run_system_package_update, install_wptk, verify_api_spec_files, run_script /usr/local/cpanel/scripts/check_cpanel_pkgs --fix --no-digest --no-broken, update_spamassassin_rules, run_script /usr/local/cpanel/scripts/mailperm, run_script /usr/local/cpanel/scripts/find_outdated_services --auto)
+Waiting for 15 tasks to complete: running (restartsrv spamd, build_locale_databases, install_cpaddons, rebuild_templates, checkallsslcerts, run_base_package_update, run_system_package_update, verify_api_spec_files, run_script /usr/local/cpanel/scripts/check_cpanel_pkgs --fix --no-digest --no-broken, update_spamassassin_rules); waiting (run_script /usr/local/cpanel/scripts/mailperm, run_script /usr/local/cpanel/scripts/find_outdated_services --auto); deferred (install_wptk, install_imunifyav, reloadtailwatch)
+Waiting for 14 tasks to complete: running (restartsrv spamd, build_locale_databases, install_cpaddons, rebuild_templates, checkallsslcerts, run_base_package_update, run_system_package_update, run_script /usr/local/cpanel/scripts/check_cpanel_pkgs --fix --no-digest --no-broken, update_spamassassin_rules, run_script /usr/local/cpanel/scripts/mailperm); waiting (run_script /usr/local/cpanel/scripts/find_outdated_services --auto); deferred (install_wptk, install_imunifyav, reloadtailwatch)
+Waiting for 13 tasks to complete: running (restartsrv spamd, build_locale_databases, rebuild_templates, checkallsslcerts, run_base_package_update, run_system_package_update, run_script /usr/local/cpanel/scripts/check_cpanel_pkgs --fix --no-digest --no-broken, update_spamassassin_rules, run_script /usr/local/cpanel/scripts/mailperm, run_script /usr/local/cpanel/scripts/find_outdated_services --auto); deferred (install_wptk, install_imunifyav, reloadtailwatch)
+Waiting for 11 tasks to complete: running (restartsrv spamd, rebuild_templates, checkallsslcerts, run_base_package_update, run_system_package_update, run_script /usr/local/cpanel/scripts/check_cpanel_pkgs --fix --no-digest --no-broken, update_spamassassin_rules, run_script /usr/local/cpanel/scripts/find_outdated_services --auto); deferred (install_wptk, install_imunifyav, reloadtailwatch)
+Waiting for 10 tasks to complete: running (restartsrv spamd, rebuild_templates, checkallsslcerts, run_base_package_update, run_system_package_update, update_spamassassin_rules, run_script /usr/local/cpanel/scripts/find_outdated_services --auto); deferred (install_wptk, install_imunifyav, reloadtailwatch)
+Waiting for 8 tasks to complete: running (rebuild_templates, checkallsslcerts, run_base_package_update, run_system_package_update, update_spamassassin_rules, run_script /usr/local/cpanel/scripts/find_outdated_services --auto); deferred (install_wptk, install_imunifyav)
+Waiting for 7 tasks to complete: running (rebuild_templates, checkallsslcerts, run_base_package_update, run_system_package_update, update_spamassassin_rules); deferred (install_wptk, install_imunifyav)
+Waiting for 6 tasks to complete: running (rebuild_templates, run_base_package_update, run_system_package_update, update_spamassassin_rules, install_imunifyav); deferred (install_wptk)
+Waiting for 6 tasks to complete: running (rebuild_templates, run_base_package_update, run_system_package_update, update_spamassassin_rules, install_imunifyav); deferred (install_wptk)
+Waiting for 6 tasks to complete: running (rebuild_templates, run_base_package_update, update_spamassassin_rules, install_imunifyav); deferred (install_wptk); scheduled (recache_system_reboot_data)
+Waiting for 6 tasks to complete: running (rebuild_templates, run_base_package_update, update_spamassassin_rules, install_imunifyav, recache_system_reboot_data); deferred (install_wptk)
+Waiting for 5 tasks to complete: running (rebuild_templates, run_base_package_update, update_spamassassin_rules, install_imunifyav); deferred (install_wptk)
+Waiting for 5 tasks to complete: running (rebuild_templates, run_base_package_update, update_spamassassin_rules, install_imunifyav); deferred (install_wptk)
+Waiting for 4 tasks to complete: running (run_base_package_update, update_spamassassin_rules, install_imunifyav); deferred (install_wptk)
+Waiting for 5 tasks to complete: running (run_base_package_update, update_spamassassin_rules, install_imunifyav, rebuild_whm_chrome); deferred (install_wptk)
+Waiting for 4 tasks to complete: running (run_base_package_update, update_spamassassin_rules, install_imunifyav); deferred (install_wptk)
+Waiting for 3 tasks to complete: running (run_base_package_update, update_spamassassin_rules); deferred (install_wptk)
+Waiting for 2 tasks to complete: running (update_spamassassin_rules, install_wptk)
+Waiting for 3 tasks to complete: running (update_spamassassin_rules, install_wptk); scheduled (restartsrv spamd)
+Waiting for 2 tasks to complete: running (install_wptk, restartsrv spamd)
+Waiting for 1 task to complete: running (install_wptk)
+Waiting for 2 tasks to complete: running (install_wptk, rebuild_whm_chrome)
+Waiting for 4 tasks to complete: running (install_wptk, rebuild_whm_chrome, sprite_generator, verify_api_spec_files)
+Waiting for 2 tasks to complete: running (install_wptk, sprite_generator)
+Waiting for 3 tasks to complete: running (install_wptk, sprite_generator, rebuild_whm_chrome)
+Waiting for 2 tasks to complete: running (install_wptk, rebuild_whm_chrome)
+Waiting for 1 task to complete: running (install_wptk)
+Waiting for 1 task to complete: running (install_wptk)
+Waiting for 1 task to complete: running (install_wptk)
+[79760] Completed flushing task queue.
+[79760] Done.
+==> cpsrvd 11.122.0.21 started
+==> cpsrvd: loading security policy....Done
+==> cpsrvd: Setting up SSL support ... Done
+License Check Failed during startup of cpsrvd: Cannot read license file
+==> cpsrvd: transferred port bindings: 10,15,16,3,4,5,6,7,8,9
+==> CONFIGURATION CHANGE: closing FD 15 (webmail_ssl, port 2096)
+==> CONFIGURATION CHANGE: closing FD 16 (webmail, port 2095)
+==> cpsrvd: bound to ports
+License Check Failed: Cannot read license file
+[2024-10-22 05:09:30 +0200] info [cpsrvd] version 11.122.0.21 online
