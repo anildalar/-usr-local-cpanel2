@@ -1,0 +1,44 @@
+Tue Oct 22 04:52:38 2024: License request made by process 16371 - /usr/local/cpanel/3rdparty/bin/perl ./updatenow.static --upcp --force --log=/var/log/cpanel-install.log --skipapache 0 --skipreposetup 0
+Tue Oct 22 04:52:38 2024: License Update Request
+Tue Oct 22 04:52:38 2024: Using full manual DNS resolution
+Tue Oct 22 04:52:38 2024: Trying server 208.74.123.3
+Tue Oct 22 04:52:38 2024: Connected using local address 185.239.209.8
+Tue Oct 22 04:52:39 2024: Server 208.74.123.3 on port 2089 returned:
+Key Accepted
+Key Follows
+Tue Oct 22 04:52:40 2024: Obtained lock license file
+Tue Oct 22 04:52:40 2024: Update extended auth token
+Tue Oct 22 04:52:40 2024: Update openid connect client credentials
+Tue Oct 22 04:52:40 2024: Accepted 31.002 license from server 208.74.123.3 on port 2089
+Tue Oct 22 04:52:40 2024: License update succeeded after trying 1 server
+Tue Oct 22 04:52:40 2024: Detected a possible product type change. Scheduling a job to enable/disable services.
+Tue Oct 22 04:52:48 2024: License request made by process 31157 - /usr/local/cpanel/3rdparty/bin/perl /usr/local/cpanel/scripts/cpanel_initial_install --skipapache 0 --skipreposetup 0 --installstart 1729564984
+Tue Oct 22 04:52:48 2024: Skipping license update since it was updated 0 minutes ago.
+Tue Oct 22 04:58:45 2024: Daily license update requested.
+Tue Oct 22 04:58:45 2024: License Update Request
+Tue Oct 22 04:58:45 2024: Using full manual DNS resolution
+Tue Oct 22 04:58:45 2024: Trying server 208.74.123.2
+Tue Oct 22 04:58:45 2024: Connected using local address 185.239.209.8
+Tue Oct 22 04:58:46 2024: Server 208.74.123.2 on port 2089 returned:
+Key Accepted
+Key Follows
+Tue Oct 22 04:58:46 2024: License request made by process 38555 - queueprocd - process - check
+Tue Oct 22 04:58:46 2024: A License check appears to already be running.
+Tue Oct 22 04:58:47 2024: Obtained lock license file
+Tue Oct 22 04:58:47 2024: Update openid connect client credentials
+Tue Oct 22 04:58:47 2024: Accepted 31.002 license from server 208.74.123.2 on port 2089
+Tue Oct 22 04:58:47 2024: License update succeeded after trying 1 server
+Tue Oct 22 04:58:47 2024: Scheduling cpsrvd restart for successful license refresh (graceful with autofallback to hard)
+Tue Oct 22 05:00:52 2024: License request made by process 72999 - /usr/local/cpanel/3rdparty/bin/perl /usr/local/cpanel/scripts/updatenow --upcp --log=/var/cpanel/updatelogs/update.72995.153384.1729564515.log
+Tue Oct 22 05:00:52 2024: License Update Request
+Tue Oct 22 05:00:52 2024: Using full manual DNS resolution
+Tue Oct 22 05:00:52 2024: Trying server 208.74.123.3
+Tue Oct 22 05:00:52 2024: Connected using local address 185.239.209.8
+Tue Oct 22 05:00:53 2024: Server 208.74.123.3 on port 2089 returned:
+The license has been activated too many times on different machines. (185.239.209.8)
+
+Tue Oct 22 05:00:53 2024: The cPanel license server replied that the license has been activated on too many machines (600).
+Please contact billing@cpanel.net
+
+The exact message was: The license has been activated too many times on different machines. (185.239.209.8)
+Tue Oct 22 05:00:53 2024: License update failed after trying 1 server

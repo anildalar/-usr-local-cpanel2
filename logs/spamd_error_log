@@ -1,0 +1,32 @@
+Oct 22 04:58:45.868 [38391] warn: config: could not find sys rules directory
+Oct 22 04:58:46.517 [38391] warn: config: registryboundaries: no tlds defined, need to run sa-update
+Oct 22 04:58:46.941 [38391] info: spamd: server started on IO::Socket::IP [::1]:783, IO::Socket::IP [127.0.0.1]:783 (running version 4.0.1)
+Oct 22 04:58:46.942 [38391] info: spamd: server pid: 38391
+Oct 22 04:58:46.944 [38391] info: spamd: server successfully spawned child process, pid 38567
+Oct 22 04:58:46.947 [38391] info: spamd: server successfully spawned child process, pid 38568
+Oct 22 04:58:46.950 [38391] info: prefork: child states: IS
+Oct 22 04:58:46.953 [38391] info: prefork: child states: II
+Oct 22 04:58:48.959 [38391] info: spamd: handled cleanup of child pid [38568] due to SIGCHLD: interrupted, signal 2 (0002)
+Oct 22 04:59:01.155 [39621] warn: config: could not find sys rules directory
+Oct 22 04:59:01.727 [39621] warn: config: registryboundaries: no tlds defined, need to run sa-update
+Oct 22 04:59:02.128 [39621] info: spamd: server started on IO::Socket::IP [::1]:783, IO::Socket::IP [127.0.0.1]:783 (running version 4.0.1)
+Oct 22 04:59:02.128 [39621] info: spamd: server pid: 39621
+Oct 22 04:59:02.131 [39621] info: spamd: server successfully spawned child process, pid 39723
+Oct 22 04:59:02.138 [39621] info: spamd: server successfully spawned child process, pid 39724
+Oct 22 04:59:02.142 [39621] info: prefork: child states: II
+Oct 22 04:59:04.151 [39621] info: spamd: handled cleanup of child pid [39724] due to SIGCHLD: interrupted, signal 2 (0002)
+Oct 22 04:59:04.151 [39621] info: spamd: handled cleanup of child pid [39723] due to SIGCHLD: interrupted, signal 2 (0002)
+Oct 22 05:02:29.050 [79842] warn: config: could not find sys rules directory
+Oct 22 05:02:29.666 [79842] warn: config: registryboundaries: no tlds defined, need to run sa-update
+Oct 22 05:02:30.156 [79842] info: spamd: server started on IO::Socket::IP [::1]:783, IO::Socket::IP [127.0.0.1]:783 (running version 4.0.1)
+Oct 22 05:02:30.157 [79842] info: spamd: server pid: 79842
+Oct 22 05:02:30.161 [79842] info: spamd: server successfully spawned child process, pid 79968
+Oct 22 05:02:30.165 [79842] info: spamd: server successfully spawned child process, pid 79970
+Oct 22 05:02:30.176 [79842] info: prefork: child states: II
+Oct 22 05:02:32.182 [79842] info: spamd: handled cleanup of child pid [79970] due to SIGCHLD: interrupted, signal 2 (0002)
+Oct 22 05:04:24.472 [89986] info: zoom: able to use 1208/1209 'body_0' compiled rules (99.917%)
+Oct 22 05:04:26.189 [89986] info: spamd: server started on IO::Socket::IP [::1]:783, IO::Socket::IP [127.0.0.1]:783 (running version 4.0.1)
+Oct 22 05:04:26.190 [89986] info: spamd: server pid: 89986
+Oct 22 05:04:26.194 [89986] info: spamd: server successfully spawned child process, pid 90225
+Oct 22 05:04:26.199 [89986] info: spamd: server successfully spawned child process, pid 90226
+Oct 22 05:04:26.204 [89986] info: prefork: child states: II

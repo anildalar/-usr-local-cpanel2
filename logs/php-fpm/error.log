@@ -1,0 +1,5 @@
+[22-Oct-2024 04:58:45] ERROR: No pool defined. at least one pool section must be specified in config file
+[22-Oct-2024 04:58:45] ERROR: failed to post process the configuration
+[22-Oct-2024 04:58:45] ERROR: FPM initialization failed
+[22-Oct-2024 05:04:29] NOTICE: fpm is running, pid 90340
+[22-Oct-2024 05:04:29] NOTICE: ready to handle connections
