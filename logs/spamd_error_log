@@ -30,3 +30,22 @@ Oct 22 05:04:26.190 [89986] info: spamd: server pid: 89986
 Oct 22 05:04:26.194 [89986] info: spamd: server successfully spawned child process, pid 90225
 Oct 22 05:04:26.199 [89986] info: spamd: server successfully spawned child process, pid 90226
 Oct 22 05:04:26.204 [89986] info: prefork: child states: II
+Oct 22 05:14:34.166 [89986] info: zoom: able to use 1208/1209 'body_0' compiled rules (99.917%)
+Oct 22 05:14:37.374 [89986] info: spamd: server started on IO::Socket::INET6 [\x{00}\x{00}\x{00}\x{00}\x{00}\x{00}\x{00}\x{00}\x{00}\x{00}\x{00}\x{00}\x{00}\x{00}\x{00}\x{01}]:783, IO::Socket::INET [\x{7F}\x{00}\x{00}\x{01}]:783 (running version 4.0.1)
+Oct 22 05:14:37.375 [89986] info: spamd: server pid: 89986
+Oct 22 05:14:37.378 [89986] info: spamd: server successfully spawned child process, pid 91277
+Oct 22 05:14:37.383 [89986] info: spamd: server successfully spawned child process, pid 91278
+Oct 22 05:14:37.387 [89986] info: prefork: child states: BS
+Oct 22 05:14:37.388 [91277] info: spamd: connection from localhost [::1]:40634 to port 783, fd 5
+Oct 22 05:14:37.391 [89986] info: spamd: server successfully spawned child process, pid 91279
+Oct 22 05:14:37.392 [89986] info: prefork: adjust: 0 idle children less than 1 minimum idle children.  Increasing spamd children: 91279 started.
+Oct 22 05:14:37.393 [89986] info: prefork: child states: BIS
+Oct 22 05:14:37.396 [89986] info: prefork: child states: BII
+Oct 22 05:14:37.487 [89986] info: prefork: child states: III
+Oct 22 05:14:37.488 [89986] info: prefork: adjust: 3 idle children more than 2 maximum idle children. Decreasing spamd children: 91279 killed.
+Oct 22 05:14:37.492 [89986] info: prefork: child states: IIK
+Oct 22 05:14:37.493 [89986] info: spamd: handled cleanup of child pid [91279] due to SIGCHLD: interrupted, signal 2 (0002)
+Oct 22 05:19:39.871 [91277] info: spamd: connection from localhost [::1]:48590 to port 783, fd 5
+Oct 22 05:19:39.950 [89986] info: prefork: child states: II
+Oct 22 05:24:42.133 [91277] info: spamd: connection from localhost [::1]:49676 to port 783, fd 5
+Oct 22 05:24:42.230 [89986] info: prefork: child states: II

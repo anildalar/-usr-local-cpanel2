@@ -1219,3 +1219,15 @@ License Check Failed during startup of cpsrvd: Cannot read license file
 ==> cpsrvd: bound to ports
 License Check Failed: Cannot read license file
 [2024-10-22 05:09:30 +0200] info [cpsrvd] version 11.122.0.21 online
+==> cpsrvd 11.122.0.21 started
+==> cpsrvd: loading security policy....Done
+==> cpsrvd: Setting up SSL support ... Done
+License Check Failed during startup of cpsrvd: Cannot read license file
+==> cpsrvd: transferred port bindings: 10,3,4,5,6,7,8,9,11,12
+==> CONFIGURATION CHANGE: closing FD 11 (webmail, port 2095)
+==> CONFIGURATION CHANGE: closing FD 12 (webmail_ssl, port 2096)
+==> cpsrvd: bound to ports
+License Check Failed: Cannot read license file
+[2024-10-22 05:19:22 +0200] info [cpsrvd] version 11.122.0.21 online
+[2024-10-22 05:23:26 +0200] info [whostmgrd] Successfully verified signature for cpanel (key types: release).
+[2024-10-22 05:24:41 +0200] warn [whostmgrd] The subprocess (whostmgr (whostmgr10)) exited with an error (ID 35808655068195): The subprocess reported error number 1 when it ended.

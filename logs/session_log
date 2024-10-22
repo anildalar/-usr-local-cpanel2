@@ -1,3 +1,7 @@
 [2024-10-22 05:02:27 +0200] info [xml-api] internal NEW root:Gl4nSx9Y0d7yFnK_:create_user_session address=,app=Whostmgr::API::1::Session,creator=root,method=create_user_session
 [2024-10-22 05:10:00 +0200] info [cpsrvd] internal PURGE root:Gl4nSx9Y0d7yFnK_:create_user_session expire
 
+[2024-10-22 05:19:34 +0200] info [whostmgrd] 171.61.5.164 NEW root:K1EMydTxueecwENx address=171.61.5.164,app=whostmgrd,creator=root,method=handle_form_login,path=form,possessed=0
+[2024-10-22 05:24:40 +0200] info [whostmgrd] 171.61.5.164 PURGE root:K1EMydTxueecwENx loginsuccess
+
+[2024-10-22 05:24:40 +0200] info [whostmgrd] 171.61.5.164 NEW root:AWF1aUcHBlBA7rUf address=171.61.5.164,app=whostmgrd,creator=root,method=handle_form_login,path=form,possessed=0

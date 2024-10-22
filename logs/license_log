@@ -55,3 +55,29 @@ Please contact billing@cpanel.net
 
 The exact message was: The license has been activated too many times on different machines. (185.239.209.8)
 Tue Oct 22 05:09:31 2024: License update failed after trying 1 server
+Tue Oct 22 05:19:22 2024: License request made by process 91482 - queueprocd - process - check
+Tue Oct 22 05:19:22 2024: License Update Request
+Tue Oct 22 05:19:22 2024: Using full manual DNS resolution
+Tue Oct 22 05:19:23 2024: Trying server 208.74.123.2
+Tue Oct 22 05:19:23 2024: Connected using local address 185.239.209.8
+Tue Oct 22 05:19:24 2024: Server 208.74.123.2 on port 2089 returned:
+The license has been activated too many times on different machines. (185.239.209.8)
+
+Tue Oct 22 05:19:24 2024: The cPanel license server replied that the license has been activated on too many machines (600).
+Please contact billing@cpanel.net
+
+The exact message was: The license has been activated too many times on different machines. (185.239.209.8)
+Tue Oct 22 05:19:24 2024: License update failed after trying 1 server
+Tue Oct 22 05:24:40 2024: License request made by process 92276 - queueprocd - process - check
+Tue Oct 22 05:24:40 2024: License Update Request
+Tue Oct 22 05:24:40 2024: Using full manual DNS resolution
+Tue Oct 22 05:24:41 2024: Trying server 208.74.121.86
+Tue Oct 22 05:24:41 2024: Connected using local address 185.239.209.8
+Tue Oct 22 05:24:42 2024: Server 208.74.121.86 on port 2089 returned:
+The license has been activated too many times on different machines. (185.239.209.8)
+
+Tue Oct 22 05:24:42 2024: The cPanel license server replied that the license has been activated on too many machines (600).
+Please contact billing@cpanel.net
+
+The exact message was: The license has been activated too many times on different machines. (185.239.209.8)
+Tue Oct 22 05:24:42 2024: License update failed after trying 1 server
